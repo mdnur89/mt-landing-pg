@@ -1,0 +1,150 @@
+{
+  "company": {
+    "name": "Mazano Taskmasters",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Product",
+      "href": "product"
+    },
+    {
+      "name": "Features",
+      "href": "features"
+    },
+
+    {
+      "name": "How it works",
+      "href": "pricing"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Scroll down",
+    "href": "product"
+  },
+  "mainHero": {
+    "title": "Mazano",
+    "subtitle": "Taskmasters",
+    "description": "Simplifying life, One home at a time as ⁠We take care, you enjoy Life. Having ⁠Support for every household need.",
+    "img": "/assets/images/happyTeam.jpeg",
+    "primaryAction": {
+      "text": "Get started",
+      "href": "product"
+    },
+    "secondaryAction": {
+      "text": "Email us",
+      "href": "mailto:email@gmailempty.com?subject=I like to know more about your products!"
+    }
+  },
+  "product": {
+    "title": "Linking Talent with buyers",
+    "items": [
+      {
+        "title": "Mission Statement",
+        "description": "Our mission is to offer you highly skilled taskmasters for both full-time and part-time needs, backed by a reliable rating system to ensure you get excellent value for your investment.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Take Control",
+        "description": "of your schedule, nurture your side projects or career, and let your accomplishments/workmanship become your well-deserved reputation.",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "What to look forward to...",
+    "subtitle": "Products & Services",
+    "description": "A provider, offering a range of solutions to enhance the quality of life for individuals and families. Our services encompass at most what you need.",
+    "items": [
+      {
+        "name": "Healthcare Services",
+        "description": "Nurse Aide, Therapists.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Home and Property Maintenance",
+        "description": "Home cleaning, Garden Maintenance, Pool Cleaning",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Labor and Services",
+        "description": "Heavy Lifting, Car Washing, Handyman Services",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Specialised Support Services",
+        "description": "Equipment Rentals, Package Transfers.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "How It Works",
+    "items": [
+      {
+        "name": "Gig Based",
+        "price": "per",
+        "priceDetails": "completed gig",
+        "features": [
+          "Anyone is eligible",
+          "Pay per project",
+          "Pay When Satified",
+          "Post Gig support"
+        ]
+      },
+      {
+        "name": "Escrow System",
+        "price": "What",
+        "priceDetails": "is this?",
+        "features": [
+          "Order a gig",
+          "Job gets done",
+          "Funds are then released",
+          "-Paying when you're happy-"
+        ]
+      },
+      {
+        "name": "Budget Based",
+        "price": "on",
+        "priceDetails": "your budget",
+        "features": [
+          "Anyone is eligible",
+          "Stick to your budget",
+          "Pay When Satified",
+          "Post Gig support"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Product",
+        "href": "product",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Features",
+        "href": "features",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "How it works",
+        "href": "pricing",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "About",
+        "href": "about",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/profile.php?id=61563439236800&mibextid=LQQJ4d"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Lead Candidate Assessment: MMC Hybrid Telehealth Platform</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            background-color: white;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        
+        .date {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 40px;
+            color: #666;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        
+        .workflow-item {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #17a2b8;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .priority {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+        .emphasis {
+            font-style: italic;
+            color: #2980b9;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 20px;
+            }
+            
+            h1 {
+                page-break-after: avoid;
+            }
+            
+            h2, h3 {
+                page-break-after: avoid;
+            }
+            
+            .workflow-item {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tech Lead Candidate Assessment: MMC Hybrid Telehealth Platform</h1>
+    
+    <div class="date">Date: Sept 11, 2025</div>
+
+    <h2>1. Patient Journey Mapping: The AI-Guided Experience</h2>
+    
+    <p>The patient journey is designed as a seamless, autonomous experience with an AI Agent as central orchestrator.</p>
+    
+    <ul>
+        <li><strong>Adaptive Intake:</strong> Conversational AI Agent collects medical history, tailors intake forms by service type (GLP-1/Cannabis), and performs real-time eligibility checks.</li>
+        <li><strong>Automated Scheduling:</strong> Upon eligibility, AI invokes scheduling APIs, handles payment processing, generates EHR profiles, and sends secure video links.</li>
+        <li><strong>Enhanced Visits:</strong> AI co-pilot provides transcription, summarizes discussions, and suggests post-consult actions to reduce provider burden.</li>
+        <li><strong>Proactive Follow-Up:</strong> AI initiates personalized adherence workflows with contextual messaging and automated escalation of concerns.</li>
+    </ul>
+
+    <h2>2. Automation Example: End-to-End Onboarding Agent</h2>
+    
+    <p>A single AI Agent orchestrates the entire patient onboarding process using API tools:</p>
+    
+    <div class="workflow-item">
+        <p><strong>Workflow:</strong> verify_eligibility() → create_patient_record() → execute_booking_workflow() → send_personalized_confirmation()</p>
+        <p><strong>Safety:</strong> Confidence thresholds trigger human review for edge cases. <strong>Impact:</strong> Reduces manual work from hours to seconds, dramatically improving conversion rates.</p>
+    </div>
+
+    <h2>3. AI Assistant: Multi-Agent Support System</h2>
+    
+    <p>Beyond chatbots, a specialized multi-agent architecture handles patient support:</p>
+    
+    <ul>
+        <li><strong>Orchestrator Agent:</strong> Routes queries to specialized sub-agents based on intent classification.</li>
+        <li><strong>Triage & FAQ Agent:</strong> Handles common queries and performs real-time tasks via API integration (rescheduling, billing inquiries).</li>
+        <li><strong>Clinical Triage Agent:</strong> Uses RAG system over medical guidelines to handle symptom queries and escalate complex cases to clinicians.</li>
+    </ul>
+    
+    <p><strong>Benefit:</strong> Composable architecture allows independent monitoring and refinement of each agent's specialized capabilities.</p>
+
+    <h2>4. Workflow Priorities (First 90 Days)</h2>
+    
+    <div class="workflow-item">
+        <p><span class="priority">Priority 1:</span> Deploy Onboarding Agent (Weeks 1-6) - Highest ROI workflow reducing CAC and freeing clinical team for complex cases.</p>
+        <p><span class="priority">Priority 2:</span> Proactive Adherence System (Weeks 7-9) - Tackles churn and improves LTV through AI-driven engagement and outcome tracking.</p>
+    </div>
+
+    <h2>5. Bonus: Agentic Patient Outcome Loop</h2>
+    
+    <p>An "Adherence Coach Agent" assigned post-consultation creates personalized engagement plans, provides vetted guidance, and identifies red flags for automatic escalation. This transforms patient support from reactive to proactive and predictive, ensuring optimal treatment adherence and outcomes.</p>
+</body>
+</html>
